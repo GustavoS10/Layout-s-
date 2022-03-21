@@ -1,0 +1,82 @@
+body{
+    background: #6C63FF;
+}
+#form-container{
+    background: #F8F8F8;
+    border-radius: 25px;
+    box-shadow: .5px 10px 15px rgba(102, 3, 141, 0.747);
+    margin: 25px auto;
+    padding: 25px;
+    margin-top: 70px;
+}
+@media(min-widht: 768px){
+    #form-container{
+        margin: 50px;
+        padding: 50px;
+    }
+}
+#form-container h1{
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+#form-container a{
+    transition: .5s;
+    color: #222;
+}
+#form-container a:hover{
+    color: #6C63FF;
+}
+#form-container #btnentrar{
+    transition: .5s;
+}
+#form-container form{
+    padding-bottom: 90px;
+}
+#form-container input{
+    border-color: #6C63FF;
+
+}
+#form-container .form-control{
+    border: none;
+    border-bottom: 1px solid #6C63FF;
+    border-radius: 0;
+}
+#form-container .form-control:focus{
+    box-shadow: none;
+}
+#form-container .form-floating label{
+    color: #6C63FF;
+}
+#form-container .form-floating > .form-control:focus ~ label{
+    color: #05006d;
+}
+#form-container input[type="submit"]{
+    background-color: #6C63FF;
+    border-color: #6C63FF;
+    margin: 5px
+}
+#form-container input[type="checkbox"]:checked{
+    background-color: #6C63FF;
+    border-color: #6C63FF;
+    
+}
+.btn.btn-primary{
+    width: 100%;
+}
+@media(min-width: 946px){
+    .btn.btn-primary{
+        display: inline-block;
+        width: auto;
+    }
+}
+/*IMAGE*/
+.row.align-items-center{
+    align-items: center;
+    height: 100%;
+    padding: 30px 0;
+}
+
+/*LINK DE CADASTRO*/
+#link-container{
+    margin-top: 25px;
+}
